@@ -1,9 +1,12 @@
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import BSTabs from "./components/BSTabs";
+import Tabs from './components/BSTabs';
 
 function App() {
+
   return (
-    <div className="App">
-    </div>
+    <BSTabs />
   );
 }
 
